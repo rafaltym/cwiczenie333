@@ -15,7 +15,7 @@ class Probka
     double x;
     Probka(double _t, double _x);
     void foo(int x);
-    <<friend>> operator<<(stream: std::ostream&,probka:const Probka&): std ::ostream&
+    friend std::ostream& operator<<(std::ostream& stream, const Probka& probka);
 };
 
 #endif // PROBKA_HPP_INCLUDED
