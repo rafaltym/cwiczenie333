@@ -12,11 +12,11 @@
     private:
         vector<Probka>probki;
     public:
-        Sygnal probkowany();
+        Sygnalprobkowany();
         void dodajProbke(p : const Probka& p)
         int iloscProbek()
         Probka& operator[](int i);
-        friend std ::ostream& operator<<(std::ostream& stream,const Sygnal probkowany& sygnal probkowany );
+        friend std ::ostream& operator<<(std::ostream& stream,const Sygnalprobkowany& sygnalprobkowany );
 
     };
 
